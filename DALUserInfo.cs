@@ -48,5 +48,40 @@ namespace BookStoreDATA
                     conn.Close();
             }
         }
+        public string GetFullName(int userID)
+        {
+            SqlConnection conn = new SqlConnection(Properties.Settings.Default.aiConnectionString);
+            try
+            {
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.Connection = conn;
+                cmd.CommandText = "Select FullName from UserData where " +
+                    " UserID=@userID";
+                cmd.Parameters.AddWithValue("@UserID", userID);
+                conn.Open();
+                string fullName;
+                if (cmd.ExecuteScalar() == null)
+                {
+                    return "";
+                }
+                else
+                {
+                    fullName = (string)cmd.ExecuteScalar();
+                }
+                return fullName;
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
+                return "";
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+        }
     }
 }

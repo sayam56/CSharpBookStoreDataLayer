@@ -1,9 +1,9 @@
+C:\Users\aisay\source\repos\BookStoreDATA\bin\Debug\BookStoreDATA.dll.config
+C:\Users\aisay\source\repos\BookStoreDATA\bin\Debug\BookStoreDATA.dll
+C:\Users\aisay\source\repos\BookStoreDATA\bin\Debug\BookStoreDATA.pdb
 C:\Users\aisay\source\repos\BookStoreDATA\obj\Debug\BookStoreDATA.csproj.AssemblyReference.cache
 C:\Users\aisay\source\repos\BookStoreDATA\obj\Debug\BookStoreDATA.Properties.Resources.resources
 C:\Users\aisay\source\repos\BookStoreDATA\obj\Debug\BookStoreDATA.csproj.GenerateResource.cache
 C:\Users\aisay\source\repos\BookStoreDATA\obj\Debug\BookStoreDATA.csproj.CoreCompileInputs.cache
-C:\Users\aisay\source\repos\BookStoreDATA\bin\Debug\BookStoreDATA.dll.config
-C:\Users\aisay\source\repos\BookStoreDATA\bin\Debug\BookStoreDATA.dll
-C:\Users\aisay\source\repos\BookStoreDATA\bin\Debug\BookStoreDATA.pdb
 C:\Users\aisay\source\repos\BookStoreDATA\obj\Debug\BookStoreDATA.dll
 C:\Users\aisay\source\repos\BookStoreDATA\obj\Debug\BookStoreDATA.pdb
